@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: lightsteelblue;
+    background: #c4a5ea;
     border-radius: 4px;
   }
   
@@ -37,12 +37,12 @@
     width: 50%;
     text-align: left;
     padding: 50px;
-    background: #7925C7;
+    background: #501984;
   }
   
   .contact-form{
     width: 50%;
-    background: lightsteelblue;
+    background: #c4a5ea;
     padding: 50px;
     border-radius: 0px 4px 4px 0px;
   }
@@ -91,10 +91,11 @@
   .social-link-container{
     display: flex;
     margin-top: 30px;
+    /* justify-content: space-around; */
   }
   
   .social-link-container .fa{
-    margin-right: 20px;
+    margin-right: 4rem;
     cursor: pointer;
     color: #F6F7A9;
     transition: all 0.2s;
@@ -144,7 +145,7 @@
     font-weight: 700;
     text-align: center;
     color: #F6F7A9;
-    background: #7925C7;
+    background: #501984;
     border-radius: 40px;
     cursor: pointer;
     transition: all 0.2s;
